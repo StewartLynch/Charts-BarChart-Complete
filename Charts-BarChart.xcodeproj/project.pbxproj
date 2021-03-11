@@ -13,8 +13,8 @@
 		BB5159EF2564910A00D73108 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5159EE2564910A00D73108 /* ContentView.swift */; };
 		BB5159F12564910C00D73108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5159F02564910C00D73108 /* Assets.xcassets */; };
 		BB5159F42564910C00D73108 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5159F32564910C00D73108 /* Preview Assets.xcassets */; };
-		BB515A0F256491EB00D73108 /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB515A0E256491EB00D73108 /* Transactions.swift */; };
 		BB6BD7AA2564959100D978BB /* TransactionBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6BD7A92564959100D978BB /* TransactionBarChartView.swift */; };
+		BBD03D0125FABACE003E3533 /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD03D0025FABACE003E3533 /* Transactions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +56,8 @@
 		BB5159F32564910C00D73108 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB5159F52564910C00D73108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB5159FC2564912500D73108 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
-		BB515A0E256491EB00D73108 /* Transactions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Transactions.swift; path = "../../Starter Data/Transactions.swift"; sourceTree = "<group>"; };
 		BB6BD7A92564959100D978BB /* TransactionBarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionBarChartView.swift; sourceTree = "<group>"; };
+		BBD03D0025FABACE003E3533 /* Transactions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Transactions.swift; path = "../../Charts Framework/BarCharts/Starter Data/Transactions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 				BB5159EE2564910A00D73108 /* ContentView.swift */,
 				BB6BD7A92564959100D978BB /* TransactionBarChartView.swift */,
 				BB5159F02564910C00D73108 /* Assets.xcassets */,
-				BB515A0E256491EB00D73108 /* Transactions.swift */,
+				BBD03D0025FABACE003E3533 /* Transactions.swift */,
 				BB5159F52564910C00D73108 /* Info.plist */,
 				BB5159FC2564912500D73108 /* Charts.xcodeproj */,
 				BB5159F22564910C00D73108 /* Preview Content */,
@@ -222,8 +222,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB6BD7AA2564959100D978BB /* TransactionBarChartView.swift in Sources */,
-				BB515A0F256491EB00D73108 /* Transactions.swift in Sources */,
 				BB5159EF2564910A00D73108 /* ContentView.swift in Sources */,
+				BBD03D0125FABACE003E3533 /* Transactions.swift in Sources */,
 				BB5159ED2564910A00D73108 /* Charts_BarChartApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
