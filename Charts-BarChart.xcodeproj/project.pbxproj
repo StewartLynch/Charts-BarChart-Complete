@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB0B425425FAC07E002CED7D /* WineTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0B425125FAC07E002CED7D /* WineTransaction.swift */; };
 		BB1E4E202565F0F20066E360 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB54DFC225659D0600D54A10 /* Charts.framework */; };
 		BB1E4E212565F0F20066E360 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BB54DFC225659D0600D54A10 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BB5159ED2564910A00D73108 /* Charts_BarChartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5159EC2564910A00D73108 /* Charts_BarChartApp.swift */; };
@@ -14,7 +15,6 @@
 		BB5159F12564910C00D73108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5159F02564910C00D73108 /* Assets.xcassets */; };
 		BB5159F42564910C00D73108 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB5159F32564910C00D73108 /* Preview Assets.xcassets */; };
 		BB6BD7AA2564959100D978BB /* TransactionBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6BD7A92564959100D978BB /* TransactionBarChartView.swift */; };
-		BBD03D0125FABACE003E3533 /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD03D0025FABACE003E3533 /* Transactions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +49,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BB0B425125FAC07E002CED7D /* WineTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineTransaction.swift; sourceTree = "<group>"; };
 		BB5159E92564910A00D73108 /* Charts-BarChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Charts-BarChart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB5159EC2564910A00D73108 /* Charts_BarChartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charts_BarChartApp.swift; sourceTree = "<group>"; };
 		BB5159EE2564910A00D73108 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,7 +58,7 @@
 		BB5159F52564910C00D73108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB5159FC2564912500D73108 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
 		BB6BD7A92564959100D978BB /* TransactionBarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionBarChartView.swift; sourceTree = "<group>"; };
-		BBD03D0025FABACE003E3533 /* Transactions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Transactions.swift; path = "../../Charts Framework/BarCharts/Starter Data/Transactions.swift"; sourceTree = "<group>"; };
+		BBC21B9725FABFC100997D89 /* Charts-master */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Charts-master"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +97,9 @@
 				BB5159EE2564910A00D73108 /* ContentView.swift */,
 				BB6BD7A92564959100D978BB /* TransactionBarChartView.swift */,
 				BB5159F02564910C00D73108 /* Assets.xcassets */,
-				BBD03D0025FABACE003E3533 /* Transactions.swift */,
+				BB0B425125FAC07E002CED7D /* WineTransaction.swift */,
 				BB5159F52564910C00D73108 /* Info.plist */,
+				BBC21B9725FABFC100997D89 /* Charts-master */,
 				BB5159FC2564912500D73108 /* Charts.xcodeproj */,
 				BB5159F22564910C00D73108 /* Preview Content */,
 			);
@@ -223,7 +225,7 @@
 			files = (
 				BB6BD7AA2564959100D978BB /* TransactionBarChartView.swift in Sources */,
 				BB5159EF2564910A00D73108 /* ContentView.swift in Sources */,
-				BBD03D0125FABACE003E3533 /* Transactions.swift in Sources */,
+				BB0B425425FAC07E002CED7D /* WineTransaction.swift in Sources */,
 				BB5159ED2564910A00D73108 /* Charts_BarChartApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

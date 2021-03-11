@@ -24,7 +24,7 @@ struct ContentView: View {
                     selectedYear = 2019
                 }
             }
-            TransactionBarChartView(entries: Transaction.dataEntriesForYear(selectedYear, transactions: Transaction.allTransactions),
+            TransactionBarChartView(entries: WineTransaction.dataEntriesForYear(selectedYear, transactions: WineTransaction.allTransactions),
                                     selectedYear: $selectedYear,
                                     selectedItem: $selectedItem)
                 .frame(height: 500)

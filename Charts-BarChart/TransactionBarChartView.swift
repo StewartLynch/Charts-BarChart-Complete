@@ -42,7 +42,7 @@ struct TransactionBarChartView: UIViewRepresentable {
             self.parent = parent
         }
         func chartValueSelected(_ chartView: ChartViewBase, entry: ChartDataEntry, highlight: Highlight) {
-            let month = Transaction.months[Int(entry.x)]
+            let month = WineTransaction.months[Int(entry.x)]
             let quantity = Int(entry.y)
             parent.selectedItem = "\(quantity) sold in \(month)"
             
@@ -70,7 +70,7 @@ struct TransactionBarChartView: UIViewRepresentable {
     }
     
     func formatXAxis(xAxis: XAxis) {
-        xAxis.valueFormatter = IndexAxisValueFormatter(values: Transaction.months)
+        xAxis.valueFormatter = IndexAxisValueFormatter(values: WineTransaction.months)
         xAxis.labelPosition = .bottom
         xAxis.labelTextColor = .red
     }
@@ -88,7 +88,7 @@ struct TransactionBarChartView: UIViewRepresentable {
 
 struct TransactionBarChartView_Previews: PreviewProvider {
     static var previews: some View {
-        TransactionBarChartView(entries: Transaction.dataEntriesForYear(2019, transactions: Transaction.allTransactions),
+        TransactionBarChartView(entries: WineTransaction.dataEntriesForYear(2019, transactions: WineTransaction.allTransactions),
                                 selectedYear: .constant(2019),
                                 selectedItem: .constant(""))
     }
